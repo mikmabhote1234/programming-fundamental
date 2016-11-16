@@ -10,7 +10,7 @@ date : november 16 2016
 # include <conio.h>
 int main (){
 int a, b, sum;
-printf ("enter frist number\n");
+printf ("enter first number\n");
 scanf ("%d",&a);
 printf ("enter second number\n");
 scanf ("%d",&b);
