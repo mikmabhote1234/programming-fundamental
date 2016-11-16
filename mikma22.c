@@ -9,13 +9,13 @@ date : november 16 2016
 # include <stdio.h>
 # include <conio.h>
 int main (){
-int a, b, division;
-printf ("enter first number\n");
-scanf ("%d",&a);
-printf ("enter second number\n");
-scanf ("%d",&b);
+float a, b, division;
+printf("enter first number\n");
+scanf("%f",&a);
+printf("enter second number\n");
+scanf("%f",&b);
 division= a/b;
-printf ("The division of two number is :%d",division);
+printf("The division of two number is :%f",division);
 getch();
 return 0;
 }
