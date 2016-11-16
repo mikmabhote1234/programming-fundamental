@@ -1,17 +1,25 @@
 /*
-student name:Mikma bhote
-subject :programming fundamental
-roll no:
-lab sheet no:
-program:write a C program to print name,ask from user
-date:14 november 2016
-*/ # include <stdio.h>
+student name : Mikma Bhote
+subject : Programming fundamental
+roll no : 8
+lab sheet no : 2
+program : write a c program to print sum of two numbers asked from users.
+date : november 16 2016
+*/
+# include <stdio.h>
 # include <conio.h>
 int main (){
-char name[3];
-printf ("what is your name\n");
-scanf ("%s",&name);
-printf ( " My name is:%s",name);
-getch ();
+int a, b, sum;
+printf ("enter frist number");
+scanf ("%d,&a");
+printf ("enter second number");
+scanf ("%d",&b);
+sum = a+b;
+printf ("sum of two number is:%d",sum);
+
+getch();
 return 0;
 }
+
+
+
