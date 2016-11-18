@@ -1,24 +1,24 @@
 /*
-student name : Mikma Bhote
-subject : Programming fundamental
-roll no : 8
-lab sheet no : 2
-program : write a c program to print sum of two numbers asked from users.
-date : november 16 2016
+student name : Mikma bhote
+subject name : Programming fundamental
+roll no : 08
+lab sheet no : 3
+program : write a C program to print the simple interest
+date : 17 november 2017
 */
 # include <stdio.h>
 # include <conio.h>
-int main (){
-int a, b, subtraction;
-printf ("enter first number\n");
-scanf ("%d",&a);
-printf ("enter second number\n");
-scanf ("%d",&b);
-subtraction = a-b;
-printf ("The subtraction of two number is :%d",subtraction);
+int main ()
+{
+float P,T,R,I;
+printf("Enter the principle\n");
+scanf("%f",&P);
+printf("Enter the time\n");
+scanf("%f",&T);
+printf("Enter the rate\n");
+scanf("%f",&R);
+I= (P*T*R)/100;
+printf("The simple interest is:%f",I);
 getch();
-return 0;
+return (0);
 }
-
-
-
