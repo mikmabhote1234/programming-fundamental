@@ -10,11 +10,11 @@ date :23 Nov.2016
 #include<conio.h>
 int main(){
     float F,C,E;
-    printf("Enter the fahrenhit:\n");
-    scanf("%f",&F);
-    E=5*(F-32);
-    C=E/9;
-    printf("The temperature is:%f",C);
+    printf("Enter the centigrade:\n");
+    scanf("%f",&C);
+    E=9*(C+32);
+    F=E/5;
+    printf("The temperature is:%f",F);
     getch();
     return 0;
 }
