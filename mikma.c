@@ -1,25 +1,20 @@
 /*
-student name : Mikma Bhote
-subject : Programming fundamental
-roll no : 8
-lab sheet no : 2
-program : write a c program to print sum of two numbers asked from users.
-date : november 16 2016
+Student name: Mikma bhote
+Subject: Computer fundamentals
+Roll no:23
+Program : Write a c program to use the IF ELSE
+Lab Sheet No:03
+Date: November,2016,20
 */
-# include <stdio.h>
-# include <conio.h>
+#include<stdio.h>
 int main (){
-int a, b, sum;
-printf ("enter frist number");
-scanf ("%d,&a");
-printf ("enter second number");
-scanf ("%d",&b);
-sum = a+b;
-printf ("sum of two number is:%d",sum);
+    int n ;
+    printf("Enter the number:\n");
+    scanf("%d",&n);
+    if(n>0)
+    {
+        printf("no is positive");
 
-getch();
+    }
 return 0;
 }
-
-
-
