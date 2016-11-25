@@ -14,7 +14,11 @@ int main (){
     if(n>0)
     {
         printf("no is positive");
-
+       
+    }
+    else
+    {
+        printf("no is negative");
     }
 return 0;
 }
