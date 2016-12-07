@@ -1,21 +1,35 @@
 /*
-Student name: Mikma bhote
-Subject: Computer fundamentals
-Roll no:23
-Program : Write a c program to print logical operator
-Lab Sheet No:03
-Date: November,2016,20
+student name:Mikma bhote
+subject name:Programming Fundamental
+roll no:19
+lab sheet no:10
+program:write a c program to check number is odd or even
+data:Dec 7 2016
 */
 #include<stdio.h>
 #include<conio.h>
-int main(){
-    int a,b,AND;
-    printf("Enter the first number:\n");
-    scanf("%d",&a);
-    printf("Enter the second number:\n");
-    scanf("%d",&b);
-    AND=(a&&b);
-    printf("the logical operator is:%d",AND);
-    getch ();
+int main()
+{
+    int n;
+    printf("Enter the number is:\n");
+    scanf("%d",&n);
+    if(n>=80)
+    {
+        printf("Distinction");
+
+    }
+   else if(n>=60&& n<80)
+    {
+        printf("First Division\n");
+    }
+   else if(n>=50&& n<60 )
+    {
+        printf("Second Division\n");
+    }
+   else if(n>40)
+    {
+        printf("You are Failed\n");
+    }
+    getch();
     return 0;
 }
