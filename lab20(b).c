@@ -1,17 +1,22 @@
-#include<stdio.h>
-#include<math.h>
-void area();
-int main(){
-
-int r;
-printf("Enter the radius\n");
-scanf("%d",&r);
-area(r);
-}
-void area(int f)
-{
-
-    int area;
-    area=3.14*f*f;
-    printf("The area of circle is:%d",area);
+/*
+ student name:Mikma bhote
+ subject name:Programming Fundamental
+ roll no:23
+ lab sheet no:21
+ program:WAP to print the reverse number
+ Data:20 Jan 2017
+ */
+ #include<stdio.h>
+ int main()
+ {
+	 int i,rem;
+	printf("enter the number\n");
+	scanf("%d",&i);
+	while (i>=1)
+	{
+		rem=i%10;
+		i=i/10;
+		printf("%d",rem);
+	}
+return 0;
 }
